@@ -1,3 +1,11 @@
+Here is the updated `privacy/index.html`. The file is also saved in the project.
+
+I changed three things from the last version:
+- **Purchases:** the one-time purchase wording is replaced with the monthly, annual and lifetime options.
+- **Stores:** the page now names only the App Store, to match the iPhone launch. Google Play is removed.
+- **Cancelling:** a line on cancelling a subscription is added under "Your choices".
+
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -74,6 +82,10 @@
 
       <h2>Internet use</h2>
       <p>Chitalka&rsquo;s stories, adjectives and sentences are stored inside the app. The app does not contact any server to load that content, and it does not send anything you read or answer anywhere.</p>
+      <p>The only internet activity is with the App Store, when you buy or restore the unlock described below.</p>
+
+      <h2>Purchases</h2>
+      <p>Four categories are free. The others are unlocked with one of three purchases: a monthly subscription, an annual subscription, or a one-time lifetime purchase. Purchases are processed entirely by Apple through the App Store. We do not receive or store your payment card details, and we do not keep a record of your purchase. The app asks Apple whether the unlock is owned, both when you buy it and when you restore it. Apple handles that under its own privacy policy.</p>
 
       <h2>Sound</h2>
       <p>The app plays short sound effects, such as the category wheel tick and the quiz answer sounds. These sounds are stored inside the app. The app does not record or store anything you hear.</p>
@@ -85,7 +97,7 @@
       <p>Because the app does not keep any data about you, there is no personal data stored by us to protect. Your device&rsquo;s own security, such as a passcode and device encryption, still applies to the device itself.</p>
 
       <h2>Your choices</h2>
-      <p>You can uninstall the app at any time. You can control sound through your device settings.</p>
+      <p>You can uninstall the app at any time. You can control sound through your device settings. To stop a monthly or annual subscription, cancel it in your Apple ID subscription settings (on iPhone: Settings, your name, Subscriptions).</p>
 
       <h2>Changes to this policy</h2>
       <p>If we change how the app handles information, we will update this policy and change the effective date above. Material changes will also be noted in the app&rsquo;s store listing or in the app.</p>
@@ -95,3 +107,4 @@
     </main>
   </body>
 </html>
+```
